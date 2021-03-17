@@ -1,6 +1,24 @@
+.container {
+    border: 2px solid black;
+}
 .myName {
     font-size: 50px;
     font-family: 'Merriweather', serif;
     font-weight: 900;
-    margin-top: 10%;
+}
+#beginning {
+    margin-top: 5%;
+    border: 1px solid red;
+}
+.mNp {
+    border: 1px solid greenyellow;
+}
+#skills {
+    border: 1px solid orchid;
+}
+#projects {
+    border: 1px solid seagreen
+}
+#edu {
+    border: 1px solid red;
 }

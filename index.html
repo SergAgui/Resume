@@ -1,21 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <header class="header">Sergio Aguilar</header>
-  <body>
-      
-    <!-- Optional JavaScript -->
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <div id="beginning">
+            <div class="">
+                <header class="myName">Sergio Aguilar</header>
+                <p>Goal oriented and personable .NET specialist seeking new opportunities in the web development field. Effective at completing tasks with minimal supervision and different technologies.</p>
+            </div>
+                <p>1305 Tetbury Lane</p>
+            <p>Austin, TX 78748</p>
+            <p>(737)-202-8383</p>
+            <p>SergioA.Business@gmail.com</p>
+            <p>GitHub.com/SergAgui</p>
+            <p>LinkedIn.com/SergioAgui</p>
+        </div>
+        <br>
+        <br>
+        <div class="mNp">
+            <div id="skills">
+                <div class="titles">SKILLS</div>
+                <p></p>
+                <p class="skillTitle">Front End</p>
+                <p>HTML5 | CSS3 | JavaScript</p>
+                <p class="skillTitle">Back End</p>
+                <p>C# 7+ | Ruby 2+</p>
+                <p class="skillTitle">Frameworks & Libraries</p>
+                <p>ASP.NET Core  |  Ruby On Rails  |  Entity Framework  |  Moq  | DSharpPlus  |  JQuery</p>
+                <p class="skillTitle">Miscellaneous</p>
+                <p>SQL  |  Version Control | Microsoft Azure | DigitalOcean</p>
+                <p class="skillTitle">Tools</p>
+                <p>Visual Studio 2017 & 2019  |  Microsoft SQL Management Studio  | MySQL Workbench |  Docker  | Powershell</p>
+                <br>
+                <div class="titles">Accomplishments</div>
+                <p class="skillTitle">Certificate in Full Stack Web Development</p>
+                <p>Specialization in C#/ASP.NET Core</p>
+                <p class="skillTitle">Particiapated and Completed Hacktoberfest 2020</p>
+            </div>
+            <div id="projects">
+                <div class="titles">PROJECTS</div>
+                <p></p>
+                <h4>FriendZone</h4>
+                <p>Video and board game players create meet up time to play games across the Austin, TX area</p>
+                <ul>
+                    <li>Lead our team as Project Manager and assigned team members to work on specific features.</li>
+                    <li>Maintained our repository on GitHub and branches using Git.</li>
+                    <li>Designed controllers and models with team.</li>
+                    <li>Held Scrum meetings before each coding session with the team where strategies and goals were outlined.</li>
+                    <li>Responsible for deploying via Microsoft Azure.</li>
+                </ul>
+                <br>
+                <h4>Spa Appointment</h4>
+                <p>Clients can log in to schedule an appointment with a specific employee and management can edit employees and appointments from their admin login.</p>
+                <ul>
+                    <li>Implemented a Repository Pattern to improve readability of the controllers.</li>
+                    <li>Developed unit tests using Moq.</li>
+                    <li>User and admin logins created with Entity Framework.</li>
+                    <li>Deployed via Microsoft Azure.</li>
+                </ul>
+                <br>
+                <h4>OmniJamBot</h4>
+                <p>General bot for Discord with commands for users and admins as well as games</p>
+                <ul>
+                    <li>Created using the DSharp Plus Framework.</li>
+                    <li>Implemented a Task-based Asynchronous Pattern so that multiple commands and processes could be completed at once.</li>
+                    <li>Currently used in a few Discord servers.</li>
+                    <li>Deployed via DigitalOcean.</li>
+                </ul>
+            </div>
+        </div>
+        <div id="edu">
+            <div class="titles">EDUCATION</div>
+            <p></p>
+            <h4><halfStrong>Austin Code Academy</halfStrong>, Austin, TX — Certified Full Stack Web Developer Specializing in C#/.NET Core</h4>
+            <p>JANUARY 2018 - SEPTEMBER 2019</p>
+            <br>
+            <h4><halfStrong>W. Charles Akins High School</halfStrong>, Austin, TX — Diploma</h4>
+            <p>MARCH 2007</p>
+            <ul>
+                <li>Founded the Student Help Desk in 2006</li>
+                <li>Trained underclassmen on repairing hardware, software, printers, running tests, and documenting results.</li>
+                <li>Updated all units to new verisons of software and hardware as outlined by the school district.</li>
+            </ul>
+        </div>
+            
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

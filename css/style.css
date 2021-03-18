@@ -16,6 +16,10 @@
 #skills {
     border: 1px solid orchid;
 }
+.titles {
+    color: #4C93D2;
+    font-weight: 700;
+}
 #projects {
     border: 1px solid seagreen
 }

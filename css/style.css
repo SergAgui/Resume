@@ -1,5 +1,4 @@
 .container {
-    border: 2px solid black;
     font-family: 'Merriweather', serif;
 }
 .myName {
@@ -11,24 +10,17 @@
 }
 #beginning {
     margin-top: 5%;
-    border: 1px solid red;
-}
-.mNp {
-    border: 1px solid greenyellow;
-}
-#skills {
-    border: 1px solid orchid;
 }
 .skillTitle {
     font-weight: 600;
 }
 .titles {
-    color: #4C93D2;
+    color: #2079C7;
     font-weight: 700;
 }
-#projects {
-    border: 1px solid seagreen
+ul {
+    margin-left: 5%;
 }
 #edu {
-    border: 1px solid red;
+    margin-bottom: 5%;
 }

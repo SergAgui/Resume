@@ -1,2 +1,2 @@
 # Resume
-GitHub page: https://sergagui.github.io/Resume/SergioResume.pdf
+GitHub page: https://sergagui.github.io/Resume/

@@ -27,3 +27,7 @@ ul {
 .eduLi {
     margin-left: 4% !important;
 }
+#cert {
+    background-image: url('~/images/ACACertIMG.jpg');
+    background-repeat: no-repeat;
+}
